@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008CD4B3871573557EFEF8E8820715AA /* NSString+split.m in Sources */ = {isa = PBXBuildFile; fileRef = 6785149AC5391418E74C00D35FBA59D5 /* NSString+split.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		01B8AAEBDA42FA9BF2FB33B66033EB3F /* NSArray+sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F93256F6B49736B70B19BA00D00966 /* NSArray+sample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0605BE0A06E5EDF754A829D18D026600 /* NSArray+find.h in Headers */ = {isa = PBXBuildFile; fileRef = E4AE88D993E8A24F20AB54A2AD4C9ABA /* NSArray+find.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06B9C7C5B2F329C550DCF0072D121955 /* NSMutableArray+push.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D8A1F527E74261F86A6D84BBED5130 /* NSMutableArray+push.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		092779481F47C6F62C235C92363C9DE2 /* NSArray+first.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAE67299B396D9BF19A06A4D9AA5F14 /* NSArray+first.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ABA9F42CA4D8E54EF101D96D387CABE /* YOLO.m in Sources */ = {isa = PBXBuildFile; fileRef = B07FE1C1E90069A84E813A12A309C273 /* YOLO.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BE3071FDAEC953A81097C768FB3F44D /* NSArray+all.m in Sources */ = {isa = PBXBuildFile; fileRef = F8896B798F3F97258FBD70F627BEB81F /* NSArray+all.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		115DAF2A5E8ABC9B2EC7BAF388B4B57C /* NSArray+reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BC05E1831DC86A6D0DB7CF9CEBCFF0 /* NSArray+reduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12FB32F5E66B78898D765E51DE29C0CE /* NSArray+inject.h in Headers */ = {isa = PBXBuildFile; fileRef = 23854DC83D635679577BF965830DC3D1 /* NSArray+inject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F594E88B621FC2E0FEFBE50F7A23F1 /* NSArray+dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F7C746BD526DB2A02BE722CEA5D15 /* NSArray+dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F0D7C0B87032C004412F164DD929AA /* NSDictionary+pick.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5476FAC735C42C03AEAB64CA50698 /* NSDictionary+pick.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		197172BE6FDD5876EF956CCCAC5C0A97 /* NSArray+dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 135787240F2AD074374E86AAB4239970 /* NSArray+dict.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C0B7FF531A1F0BD076FC0400A76EFB7 /* NSDictionary+fmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 9464618269CB836CE80110366A315BB9 /* NSDictionary+fmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C4671CB8E84B8A166092E7A9F6844A /* NSArray+rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = F26737BB963733773B915E4EB089DB0A /* NSArray+rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2644661EE034480C45DE39AEE038B8B8 /* NSArray+min.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4152CF7D3B3061367A209AD8B2B357 /* NSArray+min.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		275545866CA17D56B141A29635E1C67A /* NSArray+chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = D075D3AFF42BE44179A456D5A51EE3A3 /* NSArray+chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B136933B350B13059A3306647D7D92 /* NSArray+partition.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC3E8DB462ED7BFB548A61B5374E2D /* NSArray+partition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27FD488D0ED323A448EDBD621B8585F9 /* NSArray+indexOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 915EB2366F6CFB8D2E66DEFCDD36F102 /* NSArray+indexOf.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E45095BE97587435F526EC40E7ED30D /* NSArray+sort.h in Headers */ = {isa = PBXBuildFile; fileRef = C444296C7622FBB507488E5F8A9EF4CE /* NSArray+sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F470D81B3FCD543A7164D84ABE3E8C1 /* NSArray+has.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F47DC63936105B86DB7040E8DE2EA /* NSArray+has.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30C119D315C97A7226B39D8AE380EA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3179B945C2811AAAA42E6FB5AB36E193 /* NSArray+all.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EECA5FBEEE67F4A60DB4C60BBADC97 /* NSArray+all.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346DDEDE2C80373B9CF3B9BA1F6A39EB /* NSDictionary+map.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E56BA8BA46EC75500DE6098A83B66B /* NSDictionary+map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C8927578C0B4622D8F9D050C299BAD /* NSSet+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = A96476A9245A9DB2D0ABA8B9361664AB /* NSSet+fmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36CAF261719246D8AA7741D006FF6D2D /* NSArray+uniq.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BF6B55AB9E1F00D0A7A3915B250967 /* NSArray+uniq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386B1A5B0589861F9C5DB9D25AD5979F /* NSMutableArray+shift.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C127BAD1000F64E24896BB3B60FF398 /* NSMutableArray+shift.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		388DD9085D0035D0AF8B1F013E58152E /* NSArray+snip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349E1C3EECD5D8E5CA90422EA1A1C4E /* NSArray+snip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B4415C80B4BFBE69F1CFBEA2077F28D /* NSArray+flatten.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30253519949B3DF627A65789491E67 /* NSArray+flatten.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D1497C325FC0047B999576B1FE899DE /* NSArray+skip.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B57980065B2F2E8DF52497D2BAB86 /* NSArray+skip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		477C2E3EC7EFD62B4F769C00187408FC /* NSArray+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E30ED0BC6374DD22450C0AB692C5E /* NSArray+fmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B1BB796B4C7EA6187901269431042D7 /* NSArray+each.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A085EC82F4491AF22DF792102386BB /* NSArray+each.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B4611926B9042157818DFADFAA9AA2F /* NSArray+flatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEBD02FEEB27E460627FD079A7BBA81 /* NSArray+flatMap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52501F8CE1AA3AE080FF6950421B1A3A /* NSDictionary+extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C4F1AEC7B89D6313E4CD28F768D646 /* NSDictionary+extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5503054A54CDE66353ADA82BC429CB3D /* NSDictionary+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6A6AE5830BE74833DAC751C7110543 /* NSDictionary+extend.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5509BED5F375D406E9EF450AF3902D4D /* NSString+split.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BFE1E55FFC07DF34A4006B7FC95021 /* NSString+split.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55F429B0BBE64323215F6EC15CD88A7D /* NSArray+skip.h in Headers */ = {isa = PBXBuildFile; fileRef = AA834416341E80C452BAF8093D85BF5F /* NSArray+skip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5915EAD3C51A639A36DDE32C8B5E743A /* NSArray+has.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC974C5BAC83C6075B32D7E42733325 /* NSArray+has.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A59F5BDF2E9294F84F07C328C4C513C /* NSArray+map.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF329807F9771015C5E647830EC36BC /* NSArray+map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6190A30BB4553E241AABF1B9DC8A2DC6 /* NSArray+flatMap.h in Headers */ = {isa = PBXBuildFile; fileRef = E5414F3251B50512454A425DB09BED49 /* NSArray+flatMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A170FC2BA6669A4AF205FD83899489E /* NSArray+min.h in Headers */ = {isa = PBXBuildFile; fileRef = 27412040B60A20F7862A017C85E9C11D /* NSArray+min.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4907E22C63DA50F3B36091EB72BDB8 /* NSMutableArray+pop.h in Headers */ = {isa = PBXBuildFile; fileRef = E4479C553804FB8F7BAE83A0269BEF0E /* NSMutableArray+pop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E0027FBD14CA8BE4ABB099671A0385E /* NSArray+reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 902E6F4AA4D331A95E3FD447A7E3F437 /* NSArray+reverse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74AC16E913A6D5A38AC123842261144D /* NSArray+last.h in Headers */ = {isa = PBXBuildFile; fileRef = 24842EA3681B546F2EF6527FA9E28096 /* NSArray+last.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C741C2443E93BBA0F5D2EC3C2835E7 /* NSSet+each.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB9D51A28255B51E2570410F8848EF /* NSSet+each.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75DDF0265CCD26DCD5BA942A8D00C5D9 /* NSMutableArray+unshift.h in Headers */ = {isa = PBXBuildFile; fileRef = F80903E82C686C75EAD9ECD53E16BEE1 /* NSMutableArray+unshift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7848A8EFE8926EFC4BAFBB88770D6B07 /* NSArray+max.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3425EF62FDAC98E2911DC945452AC5 /* NSArray+max.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7865CCB8354DFA646B3757F7BE4F7275 /* NSArray+concat.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C02D58C1F52B15E4FDF35C58164A28 /* NSArray+concat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		792DB15C3408A19E9F3EAD8134FAF27E /* NSArray+shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0E8D5EFB88DD756D42DA70819DE9D9 /* NSArray+shuffle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A1C34811C9AE40E6E760E4F5CD6ECA8 /* NSArray+transpose.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD07D1AB4A2A34061C8F96A2EAB690C /* NSArray+transpose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD9DCA081B77A582E6CE344933B3C6B /* NSDictionary+array.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA6F69D72F442C9A8AB674B874671BC /* NSDictionary+array.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		820639861EFBD63163D3019E83F3CA51 /* NSArray+without.h in Headers */ = {isa = PBXBuildFile; fileRef = A737A3683209ADAF35A6EB5B39611F4F /* NSArray+without.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82893E6BE4866F828CF23A26FC6D312F /* NSMutableArray+shift.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B4DAAF95221674ED43781A93F7C0F1 /* NSMutableArray+shift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E366430611C0F3A6D92CF6471795B7 /* NSArray+first.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAEEC7811069B575A84B0AA0D3BE852 /* NSArray+first.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82F79E009319CB0E5FCBABD89F5B6DB9 /* NSArray+slice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA29A48366348C1176DD83D11AD6149 /* NSArray+slice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8367D86CF915BD2CA5E4003820E5D747 /* NSArray+none.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E658C5AA8DFB472B846D5E4D30175 /* NSArray+none.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85CD989BD5626FC5F766D6FFD8834DCF /* NSArray+pmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D4F1C6C838A608AC9C78C6549918BD /* NSArray+pmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FDE8D00146B1B346D83E1213A11E5D /* NSArray+reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0532E75FC4C8EA2B416700B97886B1E6 /* NSArray+reduce.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8830DAE286CF6BEF3CEF73BA0E9E5C25 /* NSArray+partition.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D6407062CA4800EF9FCB3EED8A5804 /* NSArray+partition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898C4512C55DA5727CD4FBA6676668C5 /* NSArray+join.h in Headers */ = {isa = PBXBuildFile; fileRef = B1243CBD219170D10FD0E722C25BBC21 /* NSArray+join.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9042CBC1D7EABE437908C854FEA2ED9C /* NSArray+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D06EE4B9AAA980AF632904D1761085 /* NSArray+rotate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9275C95D30BB27A7249DE13BFCE61AEF /* NSDictionary+array.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F876892559AFD8550233426F8DDAA75 /* NSDictionary+array.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D1C081F5A814BCD1A7F105340D121F /* NSArray+indexOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9673BD0BB159CE022F7014BEDA0F296D /* NSArray+indexOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97EB05F6F9DC46C430502CD78B218143 /* NSArray+join.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F14BDF2DC95B9034617E7BE325254 /* NSArray+join.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99F131749C5E68BF33C20024094ED248 /* NSSet+each.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBF1FD50100ADDAC36F4ADE9B1624B1 /* NSSet+each.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A495D2F46DB8D2D140DEB5A790EE358 /* NSArray+uniq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8CAA8058212C763AD6D85F419D4B2 /* NSArray+uniq.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BFE364F75DE6162662A5AFB37C2FF7E /* YOLOKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB27A198AA99DBEE305C8D4B05E1979 /* YOLOKit-dummy.m */; };
+		9C68358D7F9EC1FDFCCC8260C427DE9E /* NSArray+without.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF42B5C0F2446216215F51B186EC0 /* NSArray+without.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DE33C27A4C988862F29E0A15C8608FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9EC60366BB62876FD9077A3BED1F291B /* NSArray+inject.m in Sources */ = {isa = PBXBuildFile; fileRef = E16B7F48C5047248018A2F277A1B984D /* NSArray+inject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A15BCC6FC0BD0A0FD20A217A622F13EF /* NSArray+pluck.m in Sources */ = {isa = PBXBuildFile; fileRef = 089BFD191F171BA9DFFEE3B1868DAFEA /* NSArray+pluck.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A456E5331BC9678FD77C1DEBF2935B8D /* NSDictionary+pick.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C5F0C5DA4694F20955DD2C97E48D9E /* NSDictionary+pick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45784078CD0DB72044C223103F1CCCA /* NSArray+none.h in Headers */ = {isa = PBXBuildFile; fileRef = E389A2EC1AE38844FCF3AAC5858DF495 /* NSArray+none.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6348F8470B29960E589E40EC239AC9E /* NSArray+any.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A5146A0C8AFDED26B6A5BF469E4DD2 /* NSArray+any.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC9E8FC650C3C50324E5D78A3563976D /* NSArray+slice.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AFB9AEEC6D46D6C90CFC38DA1ED80C /* NSArray+slice.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACDE39ABE741B683803782ED2A50EBC3 /* NSArray+flatten.h in Headers */ = {isa = PBXBuildFile; fileRef = 899FCC15C10CAC9F4855E44F15A30675 /* NSArray+flatten.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD696020A631BE5AC00D2A16BF4A03C8 /* NSArray+sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC502EE2A1AC7F6A3C7615CBE82D2A7 /* NSArray+sort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADDA8D04B9C5FCD538A9A359C3651D8E /* NSMutableArray+pop.m in Sources */ = {isa = PBXBuildFile; fileRef = FA56F5D85C6163FC0C33E715A91E76F3 /* NSMutableArray+pop.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B37DA110FEC98DEB3AAD6C73678A7C1F /* NSArray+find.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E94E72329DB677B74008109B00A34 /* NSArray+find.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4BD1EE68AE446D29DF0DA5446517DFE /* NSMutableArray+push.h in Headers */ = {isa = PBXBuildFile; fileRef = 228073BDF7C444FDE55C80D8B6EB4FAB /* NSMutableArray+push.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72E518B9F3262337F7C989011915117 /* NSArray+shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = 46ABA679107EA98FFC31C069FF54E773 /* NSArray+shuffle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D61BF44D9A2077CB7B6D319F46565A /* NSArray+groupBy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A09F4CAAA62502F729DFE6248A4E7F7 /* NSArray+groupBy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9E995649BB2DE1DA64804B761F7810 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		BBFC7FCA22CBF51A28C7359EB882FF22 /* NSArray+any.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BE84C21EEB66B00814AD73E7F6F02B /* NSArray+any.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15E30B485F4D85CC83E24E4D4081C17 /* NSArray+groupBy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938074D8ED647B58E9719F32B0BFEEA3 /* NSArray+groupBy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C372A14BAE9ECEBA17FBDD7F9F7F1011 /* NSArray+select.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB4894E66A41A6E410B88D22A700E56 /* NSArray+select.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92008EFA0A6A0B4A97B5EFC7B60F5A2 /* NSArray+chunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C20FCB7E3943B41C200D38A54A65AD5 /* NSArray+chunk.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC804F7B4ABC397B949878C24217AB98 /* NSArray+snip.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DAD2D4A3EBD359C51ACA07CC152ECB /* NSArray+snip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE07EFC92D013B6DE3A4DD6E01B7698 /* NSArray+each.h in Headers */ = {isa = PBXBuildFile; fileRef = D023D6828B133082690D44D10A81423E /* NSArray+each.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB3B1452698440233A49B752FEC32F2 /* NSArray+pmap.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE12CF06DFD44FB7D7647634106CAA /* NSArray+pmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0CBD5CB5AA698480DB6611F4CFF5F91 /* NSArray+max.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D12C40E3040344BE1D6825EB529AF2B /* NSArray+max.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D121C235B06CCE4209559389CFAC0ABA /* NSArray+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593685C27067D09E361D0B7DA4103B3 /* NSArray+reverse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6BCBDBF3E12D5DFE1A54BD37D36EF67 /* NSArray+last.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BCAFA7BF0ABE22809F45537A1F64F /* NSArray+last.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7E37E683B439903AC88A804380ED4D3 /* NSArray+map.m in Sources */ = {isa = PBXBuildFile; fileRef = BF915492DB6D402C4C4C21B188CCEA14 /* NSArray+map.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D815F4F97A3A05799E78DB842CF398CA /* NSMutableArray+unshift.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B373A2675D9B598EE681F6755ACFBB /* NSMutableArray+unshift.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9EE9038EA242CD6DB648FCD523EDA28 /* NSDictionary+map.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CD2047CC2465AAD0C4A18BC37622C /* NSDictionary+map.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA971653B81682B6C7979D65E8594BAB /* NSDictionary+get.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B792E5B6E0D4BC323402405D61B44 /* NSDictionary+get.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DEA93BD3E521BB3F9EEE1750CD32D123 /* NSArray+transpose.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D2800A38F414CB486CE9975101C2A /* NSArray+transpose.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF775028B17C8B8DCEBE0CEFD89F4B0F /* YOLO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF9CC5EE32E36B46B9693B7B1B6E64D /* YOLO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5AD76D4727F32AD686B2C23EBCB1895 /* NSNumber+upTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5AA013F89C79DCFCFCF45C1D24F20 /* NSNumber+upTo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6A87D7A36CF89B74B7A4CF2B606D9D1 /* NSDictionary+fmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5EE6AC5A27A6A5846630670B613EC /* NSDictionary+fmap.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E78F0A8980AB3E6B8B157AECF7349481 /* NSArray+concat.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD03DAC6F5C0DC4FAC832C4792A01A /* NSArray+concat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA01DF5541C83B20B9F319E56237B664 /* NSArray+pluck.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7E70F1C5317A0F2D0B26394C9FE986 /* NSArray+pluck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA95FBCA5CB7024029C4EB722EAB257A /* NSArray+sample.m in Sources */ = {isa = PBXBuildFile; fileRef = A953498D39153A85A01309278EC60F68 /* NSArray+sample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECE390DCA0D2444E8C28FEDC76A83CAE /* NSArray+fmap.h in Headers */ = {isa = PBXBuildFile; fileRef = D376964F5E6522420AFDB0A62878FFC9 /* NSArray+fmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5AAFD85A522BAFA1CC473726678362E /* NSDictionary+get.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DADE4833CB8C66A6F20F6F5EACAF49 /* NSDictionary+get.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F690EBA4C20662BBF4B0BC073EB89D3A /* NSArray+select.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF17A84B93FA9FAA063AD536132627C /* NSArray+select.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7862A8D1F1DEF535B105E523B757DFF /* NSSet+fmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F3CE49E1F6EB07E2763A280FFAE33B /* NSSet+fmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7016DDD8A64F65C0EEDDD61ED5C2E8 /* NSNumber+upTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 483A178D05361EB5E75D14BD45B65FA0 /* NSNumber+upTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4EC714B00EDB9A4A62D3E4D546B7389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0398C55E77D7B91BEAF9E8F74A3F787;
+			remoteInfo = YOLOKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F93256F6B49736B70B19BA00D00966 /* NSArray+sample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+sample.h"; sourceTree = "<group>"; };
+		0532E75FC4C8EA2B416700B97886B1E6 /* NSArray+reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+reduce.m"; sourceTree = "<group>"; };
+		06B373A2675D9B598EE681F6755ACFBB /* NSMutableArray+unshift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+unshift.m"; sourceTree = "<group>"; };
+		089BFD191F171BA9DFFEE3B1868DAFEA /* NSArray+pluck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+pluck.m"; sourceTree = "<group>"; };
+		0A7E70F1C5317A0F2D0B26394C9FE986 /* NSArray+pluck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+pluck.h"; sourceTree = "<group>"; };
+		0FF9CC5EE32E36B46B9693B7B1B6E64D /* YOLO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YOLO.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		135787240F2AD074374E86AAB4239970 /* NSArray+dict.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+dict.m"; sourceTree = "<group>"; };
+		13DDF42B5C0F2446216215F51B186EC0 /* NSArray+without.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+without.m"; sourceTree = "<group>"; };
+		15C4F1AEC7B89D6313E4CD28F768D646 /* NSDictionary+extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extend.h"; sourceTree = "<group>"; };
+		1A09F4CAAA62502F729DFE6248A4E7F7 /* NSArray+groupBy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+groupBy.h"; sourceTree = "<group>"; };
+		1C127BAD1000F64E24896BB3B60FF398 /* NSMutableArray+shift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+shift.m"; sourceTree = "<group>"; };
+		202CD2047CC2465AAD0C4A18BC37622C /* NSDictionary+map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+map.m"; sourceTree = "<group>"; };
+		228073BDF7C444FDE55C80D8B6EB4FAB /* NSMutableArray+push.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+push.h"; sourceTree = "<group>"; };
+		23854DC83D635679577BF965830DC3D1 /* NSArray+inject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+inject.h"; sourceTree = "<group>"; };
+		24842EA3681B546F2EF6527FA9E28096 /* NSArray+last.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+last.h"; sourceTree = "<group>"; };
+		250F14BDF2DC95B9034617E7BE325254 /* NSArray+join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+join.m"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		27412040B60A20F7862A017C85E9C11D /* NSArray+min.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+min.h"; sourceTree = "<group>"; };
+		29AFB9AEEC6D46D6C90CFC38DA1ED80C /* NSArray+slice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+slice.m"; sourceTree = "<group>"; };
+		2D12C40E3040344BE1D6825EB529AF2B /* NSArray+max.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+max.m"; sourceTree = "<group>"; };
+		3349E1C3EECD5D8E5CA90422EA1A1C4E /* NSArray+snip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+snip.m"; sourceTree = "<group>"; };
+		341E30ED0BC6374DD22450C0AB692C5E /* NSArray+fmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+fmap.m"; sourceTree = "<group>"; };
+		37D4F1C6C838A608AC9C78C6549918BD /* NSArray+pmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+pmap.h"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A4E658C5AA8DFB472B846D5E4D30175 /* NSArray+none.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+none.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EEBD02FEEB27E460627FD079A7BBA81 /* NSArray+flatMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+flatMap.m"; sourceTree = "<group>"; };
+		3FB4894E66A41A6E410B88D22A700E56 /* NSArray+select.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+select.h"; sourceTree = "<group>"; };
+		40D06EE4B9AAA980AF632904D1761085 /* NSArray+rotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+rotate.m"; sourceTree = "<group>"; };
+		46ABA679107EA98FFC31C069FF54E773 /* NSArray+shuffle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+shuffle.h"; sourceTree = "<group>"; };
+		483A178D05361EB5E75D14BD45B65FA0 /* NSNumber+upTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+upTo.h"; sourceTree = "<group>"; };
+		4B3425EF62FDAC98E2911DC945452AC5 /* NSArray+max.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+max.h"; sourceTree = "<group>"; };
+		4BD07D1AB4A2A34061C8F96A2EAB690C /* NSArray+transpose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+transpose.h"; sourceTree = "<group>"; };
+		4CD5EE6AC5A27A6A5846630670B613EC /* NSDictionary+fmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+fmap.m"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		56B4DAAF95221674ED43781A93F7C0F1 /* NSMutableArray+shift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+shift.h"; sourceTree = "<group>"; };
+		56BE84C21EEB66B00814AD73E7F6F02B /* NSArray+any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+any.h"; sourceTree = "<group>"; };
+		58DAD2D4A3EBD359C51ACA07CC152ECB /* NSArray+snip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+snip.h"; sourceTree = "<group>"; };
+		59EECA5FBEEE67F4A60DB4C60BBADC97 /* NSArray+all.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+all.h"; sourceTree = "<group>"; };
+		61B5AA013F89C79DCFCFCF45C1D24F20 /* NSNumber+upTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+upTo.m"; sourceTree = "<group>"; };
+		61D8A1F527E74261F86A6D84BBED5130 /* NSMutableArray+push.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+push.m"; sourceTree = "<group>"; };
+		63BFE1E55FFC07DF34A4006B7FC95021 /* NSString+split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+split.h"; sourceTree = "<group>"; };
+		6785149AC5391418E74C00D35FBA59D5 /* NSString+split.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+split.m"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6AA29A48366348C1176DD83D11AD6149 /* NSArray+slice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+slice.h"; sourceTree = "<group>"; };
+		6C20FCB7E3943B41C200D38A54A65AD5 /* NSArray+chunk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+chunk.m"; sourceTree = "<group>"; };
+		6D4152CF7D3B3061367A209AD8B2B357 /* NSArray+min.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+min.m"; sourceTree = "<group>"; };
+		6DBF1FD50100ADDAC36F4ADE9B1624B1 /* NSSet+each.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+each.h"; sourceTree = "<group>"; };
+		6E8BCAFA7BF0ABE22809F45537A1F64F /* NSArray+last.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+last.m"; sourceTree = "<group>"; };
+		6F30253519949B3DF627A65789491E67 /* NSArray+flatten.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+flatten.m"; sourceTree = "<group>"; };
+		712D2800A38F414CB486CE9975101C2A /* NSArray+transpose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+transpose.m"; sourceTree = "<group>"; };
+		79CD03DAC6F5C0DC4FAC832C4792A01A /* NSArray+concat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+concat.m"; sourceTree = "<group>"; };
+		79DADE4833CB8C66A6F20F6F5EACAF49 /* NSDictionary+get.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+get.h"; sourceTree = "<group>"; };
+		80C02D58C1F52B15E4FDF35C58164A28 /* NSArray+concat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+concat.h"; sourceTree = "<group>"; };
+		874F47DC63936105B86DB7040E8DE2EA /* NSArray+has.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+has.m"; sourceTree = "<group>"; };
+		876E94E72329DB677B74008109B00A34 /* NSArray+find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+find.m"; sourceTree = "<group>"; };
+		899FCC15C10CAC9F4855E44F15A30675 /* NSArray+flatten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+flatten.h"; sourceTree = "<group>"; };
+		8DC974C5BAC83C6075B32D7E42733325 /* NSArray+has.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+has.h"; sourceTree = "<group>"; };
+		8F876892559AFD8550233426F8DDAA75 /* NSDictionary+array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+array.h"; sourceTree = "<group>"; };
+		8FA8CAA8058212C763AD6D85F419D4B2 /* NSArray+uniq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+uniq.m"; sourceTree = "<group>"; };
+		902E6F4AA4D331A95E3FD447A7E3F437 /* NSArray+reverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+reverse.h"; sourceTree = "<group>"; };
+		912F7C746BD526DB2A02BE722CEA5D15 /* NSArray+dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+dict.h"; sourceTree = "<group>"; };
+		915EB2366F6CFB8D2E66DEFCDD36F102 /* NSArray+indexOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+indexOf.m"; sourceTree = "<group>"; };
+		938074D8ED647B58E9719F32B0BFEEA3 /* NSArray+groupBy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+groupBy.m"; sourceTree = "<group>"; };
+		9464618269CB836CE80110366A315BB9 /* NSDictionary+fmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+fmap.h"; sourceTree = "<group>"; };
+		957B57980065B2F2E8DF52497D2BAB86 /* NSArray+skip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+skip.m"; sourceTree = "<group>"; };
+		9593685C27067D09E361D0B7DA4103B3 /* NSArray+reverse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+reverse.m"; sourceTree = "<group>"; };
+		95E56BA8BA46EC75500DE6098A83B66B /* NSDictionary+map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+map.h"; sourceTree = "<group>"; };
+		9673BD0BB159CE022F7014BEDA0F296D /* NSArray+indexOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+indexOf.h"; sourceTree = "<group>"; };
+		96F3CE49E1F6EB07E2763A280FFAE33B /* NSSet+fmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+fmap.h"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		99C5F0C5DA4694F20955DD2C97E48D9E /* NSDictionary+pick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+pick.h"; sourceTree = "<group>"; };
+		9B3B792E5B6E0D4BC323402405D61B44 /* NSDictionary+get.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+get.m"; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A5D6407062CA4800EF9FCB3EED8A5804 /* NSArray+partition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+partition.h"; sourceTree = "<group>"; };
+		A737A3683209ADAF35A6EB5B39611F4F /* NSArray+without.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+without.h"; sourceTree = "<group>"; };
+		A8DE12CF06DFD44FB7D7647634106CAA /* NSArray+pmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+pmap.m"; sourceTree = "<group>"; };
+		A953498D39153A85A01309278EC60F68 /* NSArray+sample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+sample.m"; sourceTree = "<group>"; };
+		A96476A9245A9DB2D0ABA8B9361664AB /* NSSet+fmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+fmap.m"; sourceTree = "<group>"; };
+		AA834416341E80C452BAF8093D85BF5F /* NSArray+skip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+skip.h"; sourceTree = "<group>"; };
+		AAC502EE2A1AC7F6A3C7615CBE82D2A7 /* NSArray+sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+sort.m"; sourceTree = "<group>"; };
+		AF0E8D5EFB88DD756D42DA70819DE9D9 /* NSArray+shuffle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+shuffle.m"; sourceTree = "<group>"; };
+		B07FE1C1E90069A84E813A12A309C273 /* YOLO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YOLO.m; sourceTree = "<group>"; };
+		B1243CBD219170D10FD0E722C25BBC21 /* NSArray+join.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+join.h"; sourceTree = "<group>"; };
+		B5A5146A0C8AFDED26B6A5BF469E4DD2 /* NSArray+any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+any.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBF17A84B93FA9FAA063AD536132627C /* NSArray+select.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+select.m"; sourceTree = "<group>"; };
+		BF915492DB6D402C4C4C21B188CCEA14 /* NSArray+map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+map.m"; sourceTree = "<group>"; };
+		C444296C7622FBB507488E5F8A9EF4CE /* NSArray+sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+sort.h"; sourceTree = "<group>"; };
+		CCA6F69D72F442C9A8AB674B874671BC /* NSDictionary+array.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+array.m"; sourceTree = "<group>"; };
+		CCAEEC7811069B575A84B0AA0D3BE852 /* NSArray+first.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+first.m"; sourceTree = "<group>"; };
+		CCB27A198AA99DBEE305C8D4B05E1979 /* YOLOKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YOLOKit-dummy.m"; sourceTree = "<group>"; };
+		CFEB9D51A28255B51E2570410F8848EF /* NSSet+each.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+each.m"; sourceTree = "<group>"; };
+		D023D6828B133082690D44D10A81423E /* NSArray+each.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+each.h"; sourceTree = "<group>"; };
+		D075D3AFF42BE44179A456D5A51EE3A3 /* NSArray+chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+chunk.h"; sourceTree = "<group>"; };
+		D376964F5E6522420AFDB0A62878FFC9 /* NSArray+fmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+fmap.h"; sourceTree = "<group>"; };
+		D3BF6B55AB9E1F00D0A7A3915B250967 /* NSArray+uniq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+uniq.h"; sourceTree = "<group>"; };
+		DCAE67299B396D9BF19A06A4D9AA5F14 /* NSArray+first.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+first.h"; sourceTree = "<group>"; };
+		E0974569A446E392CDE46AC382E38399 /* YOLOKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YOLOKit.xcconfig; sourceTree = "<group>"; };
+		E16B7F48C5047248018A2F277A1B984D /* NSArray+inject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+inject.m"; sourceTree = "<group>"; };
+		E389A2EC1AE38844FCF3AAC5858DF495 /* NSArray+none.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+none.h"; sourceTree = "<group>"; };
+		E4479C553804FB8F7BAE83A0269BEF0E /* NSMutableArray+pop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+pop.h"; sourceTree = "<group>"; };
+		E4AE88D993E8A24F20AB54A2AD4C9ABA /* NSArray+find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+find.h"; sourceTree = "<group>"; };
+		E5414F3251B50512454A425DB09BED49 /* NSArray+flatMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+flatMap.h"; sourceTree = "<group>"; };
+		E8BC05E1831DC86A6D0DB7CF9CEBCFF0 /* NSArray+reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+reduce.h"; sourceTree = "<group>"; };
+		ECF329807F9771015C5E647830EC36BC /* NSArray+map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+map.h"; sourceTree = "<group>"; };
+		EF6A6AE5830BE74833DAC751C7110543 /* NSDictionary+extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extend.m"; sourceTree = "<group>"; };
+		F0A5476FAC735C42C03AEAB64CA50698 /* NSDictionary+pick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+pick.m"; sourceTree = "<group>"; };
+		F26737BB963733773B915E4EB089DB0A /* NSArray+rotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+rotate.h"; sourceTree = "<group>"; };
+		F2C5E8C97FE0FC8D9E8E67B96A08F1F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80903E82C686C75EAD9ECD53E16BEE1 /* NSMutableArray+unshift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+unshift.h"; sourceTree = "<group>"; };
+		F8896B798F3F97258FBD70F627BEB81F /* NSArray+all.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+all.m"; sourceTree = "<group>"; };
+		F9A085EC82F4491AF22DF792102386BB /* NSArray+each.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+each.m"; sourceTree = "<group>"; };
+		FA56F5D85C6163FC0C33E715A91E76F3 /* NSMutableArray+pop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+pop.m"; sourceTree = "<group>"; };
+		FC8677F0AE2942CAFE471267E0872786 /* YOLOKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YOLOKit-prefix.pch"; sourceTree = "<group>"; };
+		FE0A0F7072946D257C97FCD709C815CC /* libYOLOKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYOLOKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAC3E8DB462ED7BFB548A61B5374E2D /* NSArray+partition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+partition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8050827781A06DC2FC3863D55D0303F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE33C27A4C988862F29E0A15C8608FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5687D658F2928577ABDD5CC2625150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C119D315C97A7226B39D8AE380EA7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0389C8DE32966FEAA67D24AEBE9B72B8 /* upTo */ = {
+			isa = PBXGroup;
+			children = (
+				483A178D05361EB5E75D14BD45B65FA0 /* NSNumber+upTo.h */,
+				61B5AA013F89C79DCFCFCF45C1D24F20 /* NSNumber+upTo.m */,
+			);
+			name = upTo;
+			sourceTree = "<group>";
+		};
+		11D13CDF7F1099EB6461081B01D6C1D7 /* max */ = {
+			isa = PBXGroup;
+			children = (
+				4B3425EF62FDAC98E2911DC945452AC5 /* NSArray+max.h */,
+				2D12C40E3040344BE1D6825EB529AF2B /* NSArray+max.m */,
+			);
+			name = max;
+			sourceTree = "<group>";
+		};
+		1531D8E7A707A0BB1204645D18BA7AEF /* reduce */ = {
+			isa = PBXGroup;
+			children = (
+				E8BC05E1831DC86A6D0DB7CF9CEBCFF0 /* NSArray+reduce.h */,
+				0532E75FC4C8EA2B416700B97886B1E6 /* NSArray+reduce.m */,
+			);
+			name = reduce;
+			sourceTree = "<group>";
+		};
+		1EDB58814D0B860E95233F83B1F9E425 /* chunk */ = {
+			isa = PBXGroup;
+			children = (
+				D075D3AFF42BE44179A456D5A51EE3A3 /* NSArray+chunk.h */,
+				6C20FCB7E3943B41C200D38A54A65AD5 /* NSArray+chunk.m */,
+			);
+			name = chunk;
+			sourceTree = "<group>";
+		};
+		216594D853F4244FC005F4F6463E40E0 /* reverse */ = {
+			isa = PBXGroup;
+			children = (
+				902E6F4AA4D331A95E3FD447A7E3F437 /* NSArray+reverse.h */,
+				9593685C27067D09E361D0B7DA4103B3 /* NSArray+reverse.m */,
+			);
+			name = reverse;
+			sourceTree = "<group>";
+		};
+		24470891B424606FC505C1E8CFC23871 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				04F93256F6B49736B70B19BA00D00966 /* NSArray+sample.h */,
+				A953498D39153A85A01309278EC60F68 /* NSArray+sample.m */,
+			);
+			name = sample;
+			sourceTree = "<group>";
+		};
+		25E764A96594F7E2DA99DEDD81BDAA26 /* find */ = {
+			isa = PBXGroup;
+			children = (
+				E4AE88D993E8A24F20AB54A2AD4C9ABA /* NSArray+find.h */,
+				876E94E72329DB677B74008109B00A34 /* NSArray+find.m */,
+			);
+			name = find;
+			sourceTree = "<group>";
+		};
+		27B5E781646FC9EE9A835600007B3622 /* concat */ = {
+			isa = PBXGroup;
+			children = (
+				80C02D58C1F52B15E4FDF35C58164A28 /* NSArray+concat.h */,
+				79CD03DAC6F5C0DC4FAC832C4792A01A /* NSArray+concat.m */,
+			);
+			name = concat;
+			sourceTree = "<group>";
+		};
+		2890B7DFFD886FF4CAB9372BF1A6C610 /* partition */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6407062CA4800EF9FCB3EED8A5804 /* NSArray+partition.h */,
+				FFAC3E8DB462ED7BFB548A61B5374E2D /* NSArray+partition.m */,
+			);
+			name = partition;
+			sourceTree = "<group>";
+		};
+		28ABB6FEBE7BFB40EC606319637E2DC5 /* flatMap */ = {
+			isa = PBXGroup;
+			children = (
+				E5414F3251B50512454A425DB09BED49 /* NSArray+flatMap.h */,
+				3EEBD02FEEB27E460627FD079A7BBA81 /* NSArray+flatMap.m */,
+			);
+			name = flatMap;
+			sourceTree = "<group>";
+		};
+		2C941565B18554A4B2A248D629877BA2 /* skip */ = {
+			isa = PBXGroup;
+			children = (
+				AA834416341E80C452BAF8093D85BF5F /* NSArray+skip.h */,
+				957B57980065B2F2E8DF52497D2BAB86 /* NSArray+skip.m */,
+			);
+			name = skip;
+			sourceTree = "<group>";
+		};
+		2CA0748CACBF6FB1444D3BDB230D3FC4 /* pmap */ = {
+			isa = PBXGroup;
+			children = (
+				37D4F1C6C838A608AC9C78C6549918BD /* NSArray+pmap.h */,
+				A8DE12CF06DFD44FB7D7647634106CAA /* NSArray+pmap.m */,
+			);
+			name = pmap;
+			sourceTree = "<group>";
+		};
+		2F8346CFC9A93B5E9637C161E53E140D /* flatten */ = {
+			isa = PBXGroup;
+			children = (
+				899FCC15C10CAC9F4855E44F15A30675 /* NSArray+flatten.h */,
+				6F30253519949B3DF627A65789491E67 /* NSArray+flatten.m */,
+			);
+			name = flatten;
+			sourceTree = "<group>";
+		};
+		2FDDAEC4ED741125EE80A49715F7376C /* push */ = {
+			isa = PBXGroup;
+			children = (
+				228073BDF7C444FDE55C80D8B6EB4FAB /* NSMutableArray+push.h */,
+				61D8A1F527E74261F86A6D84BBED5130 /* NSMutableArray+push.m */,
+			);
+			name = push;
+			sourceTree = "<group>";
+		};
+		30445C1E1CC82B22905549F6541BDD7D /* last */ = {
+			isa = PBXGroup;
+			children = (
+				24842EA3681B546F2EF6527FA9E28096 /* NSArray+last.h */,
+				6E8BCAFA7BF0ABE22809F45537A1F64F /* NSArray+last.m */,
+			);
+			name = last;
+			sourceTree = "<group>";
+		};
+		30D070930C2ADC7CA553C45613CF8550 /* transpose */ = {
+			isa = PBXGroup;
+			children = (
+				4BD07D1AB4A2A34061C8F96A2EAB690C /* NSArray+transpose.h */,
+				712D2800A38F414CB486CE9975101C2A /* NSArray+transpose.m */,
+			);
+			name = transpose;
+			sourceTree = "<group>";
+		};
+		423E09C90E9142771E14DEB3369902DC /* slice */ = {
+			isa = PBXGroup;
+			children = (
+				6AA29A48366348C1176DD83D11AD6149 /* NSArray+slice.h */,
+				29AFB9AEEC6D46D6C90CFC38DA1ED80C /* NSArray+slice.m */,
+			);
+			name = slice;
+			sourceTree = "<group>";
+		};
+		478206B7B17901616B69613E286F82A2 /* groupBy */ = {
+			isa = PBXGroup;
+			children = (
+				1A09F4CAAA62502F729DFE6248A4E7F7 /* NSArray+groupBy.h */,
+				938074D8ED647B58E9719F32B0BFEEA3 /* NSArray+groupBy.m */,
+			);
+			name = groupBy;
+			sourceTree = "<group>";
+		};
+		59A062898DD91CA69B2055DB3560EE98 /* dict */ = {
+			isa = PBXGroup;
+			children = (
+				912F7C746BD526DB2A02BE722CEA5D15 /* NSArray+dict.h */,
+				135787240F2AD074374E86AAB4239970 /* NSArray+dict.m */,
+			);
+			name = dict;
+			sourceTree = "<group>";
+		};
+		6746240D6DA3F9C081D9349E9B1DC573 /* all */ = {
+			isa = PBXGroup;
+			children = (
+				59EECA5FBEEE67F4A60DB4C60BBADC97 /* NSArray+all.h */,
+				F8896B798F3F97258FBD70F627BEB81F /* NSArray+all.m */,
+			);
+			name = all;
+			sourceTree = "<group>";
+		};
+		68C9FE189F9160C37E5DB0A79076D0C5 /* select */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4894E66A41A6E410B88D22A700E56 /* NSArray+select.h */,
+				BBF17A84B93FA9FAA063AD536132627C /* NSArray+select.m */,
+			);
+			name = select;
+			sourceTree = "<group>";
+		};
+		6AA946FEC9A2229C9F5F1FE4749D2AB3 /* uniq */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF6B55AB9E1F00D0A7A3915B250967 /* NSArray+uniq.h */,
+				8FA8CAA8058212C763AD6D85F419D4B2 /* NSArray+uniq.m */,
+			);
+			name = uniq;
+			sourceTree = "<group>";
+		};
+		6AA9ACB1A88DB136C10A1334A769ECB6 /* unshift */ = {
+			isa = PBXGroup;
+			children = (
+				F80903E82C686C75EAD9ECD53E16BEE1 /* NSMutableArray+unshift.h */,
+				06B373A2675D9B598EE681F6755ACFBB /* NSMutableArray+unshift.m */,
+			);
+			name = unshift;
+			sourceTree = "<group>";
+		};
+		6D9BFC0563A2FFED38763CBEA2EF1870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C430E170925BCBFCE199F1878BAD002B /* YOLOKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7813418A59A732235D241653F609F1CB /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0FF9CC5EE32E36B46B9693B7B1B6E64D /* YOLO.h */,
+				B07FE1C1E90069A84E813A12A309C273 /* YOLO.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6D9BFC0563A2FFED38763CBEA2EF1870 /* Pods */,
+				BF0B91628AFB473228B29D68F9C1438C /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8249730150A022C13968C40E76F808A5 /* any */ = {
+			isa = PBXGroup;
+			children = (
+				56BE84C21EEB66B00814AD73E7F6F02B /* NSArray+any.h */,
+				B5A5146A0C8AFDED26B6A5BF469E4DD2 /* NSArray+any.m */,
+			);
+			name = any;
+			sourceTree = "<group>";
+		};
+		84A8DF070F6B3DE3C153DFCE337707D0 /* rotate */ = {
+			isa = PBXGroup;
+			children = (
+				F26737BB963733773B915E4EB089DB0A /* NSArray+rotate.h */,
+				40D06EE4B9AAA980AF632904D1761085 /* NSArray+rotate.m */,
+			);
+			name = rotate;
+			sourceTree = "<group>";
+		};
+		89F1D120743BE4A90C7306D7C746548E /* has */ = {
+			isa = PBXGroup;
+			children = (
+				8DC974C5BAC83C6075B32D7E42733325 /* NSArray+has.h */,
+				874F47DC63936105B86DB7040E8DE2EA /* NSArray+has.m */,
+			);
+			name = has;
+			sourceTree = "<group>";
+		};
+		8DC09770F0C7EBFD117BA0C1E024542A /* min */ = {
+			isa = PBXGroup;
+			children = (
+				27412040B60A20F7862A017C85E9C11D /* NSArray+min.h */,
+				6D4152CF7D3B3061367A209AD8B2B357 /* NSArray+min.m */,
+			);
+			name = min;
+			sourceTree = "<group>";
+		};
+		8DDC28DBD76A586D54F4479FFCBB9975 /* join */ = {
+			isa = PBXGroup;
+			children = (
+				B1243CBD219170D10FD0E722C25BBC21 /* NSArray+join.h */,
+				250F14BDF2DC95B9034617E7BE325254 /* NSArray+join.m */,
+			);
+			name = join;
+			sourceTree = "<group>";
+		};
+		90E3CFDCC9678274E5B907A3BFA9B5C5 /* shift */ = {
+			isa = PBXGroup;
+			children = (
+				56B4DAAF95221674ED43781A93F7C0F1 /* NSMutableArray+shift.h */,
+				1C127BAD1000F64E24896BB3B60FF398 /* NSMutableArray+shift.m */,
+			);
+			name = shift;
+			sourceTree = "<group>";
+		};
+		98FAD12D63D554329FB4375EC520977C /* without */ = {
+			isa = PBXGroup;
+			children = (
+				A737A3683209ADAF35A6EB5B39611F4F /* NSArray+without.h */,
+				13DDF42B5C0F2446216215F51B186EC0 /* NSArray+without.m */,
+			);
+			name = without;
+			sourceTree = "<group>";
+		};
+		9BB4C02F7AAE8EF8B0E8943842BBC9A4 /* indexOf */ = {
+			isa = PBXGroup;
+			children = (
+				9673BD0BB159CE022F7014BEDA0F296D /* NSArray+indexOf.h */,
+				915EB2366F6CFB8D2E66DEFCDD36F102 /* NSArray+indexOf.m */,
+			);
+			name = indexOf;
+			sourceTree = "<group>";
+		};
+		9F7BD4E94BB129F09F8434EC4A544FE9 /* snip */ = {
+			isa = PBXGroup;
+			children = (
+				58DAD2D4A3EBD359C51ACA07CC152ECB /* NSArray+snip.h */,
+				3349E1C3EECD5D8E5CA90422EA1A1C4E /* NSArray+snip.m */,
+			);
+			name = snip;
+			sourceTree = "<group>";
+		};
+		A3B0B77535042279BAD338513D488254 /* pluck */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E70F1C5317A0F2D0B26394C9FE986 /* NSArray+pluck.h */,
+				089BFD191F171BA9DFFEE3B1868DAFEA /* NSArray+pluck.m */,
+			);
+			name = pluck;
+			sourceTree = "<group>";
+		};
+		A4432011F8C1C5BC773DE007E886DB6F /* pick */ = {
+			isa = PBXGroup;
+			children = (
+				99C5F0C5DA4694F20955DD2C97E48D9E /* NSDictionary+pick.h */,
+				F0A5476FAC735C42C03AEAB64CA50698 /* NSDictionary+pick.m */,
+			);
+			name = pick;
+			sourceTree = "<group>";
+		};
+		AC010DBBEFF42AC45E3EA03B7DF54988 /* get */ = {
+			isa = PBXGroup;
+			children = (
+				79DADE4833CB8C66A6F20F6F5EACAF49 /* NSDictionary+get.h */,
+				9B3B792E5B6E0D4BC323402405D61B44 /* NSDictionary+get.m */,
+			);
+			name = get;
+			sourceTree = "<group>";
+		};
+		AE0334F99DE924CD17810B15A39ACC20 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				ECF329807F9771015C5E647830EC36BC /* NSArray+map.h */,
+				BF915492DB6D402C4C4C21B188CCEA14 /* NSArray+map.m */,
+				95E56BA8BA46EC75500DE6098A83B66B /* NSDictionary+map.h */,
+				202CD2047CC2465AAD0C4A18BC37622C /* NSDictionary+map.m */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B5741E7A0A9DD6FFBFF2E7DA4EE806C9 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				E4479C553804FB8F7BAE83A0269BEF0E /* NSMutableArray+pop.h */,
+				FA56F5D85C6163FC0C33E715A91E76F3 /* NSMutableArray+pop.m */,
+			);
+			name = pop;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD12344DFC00FC0A60DC576FEDB964BD /* each */ = {
+			isa = PBXGroup;
+			children = (
+				D023D6828B133082690D44D10A81423E /* NSArray+each.h */,
+				F9A085EC82F4491AF22DF792102386BB /* NSArray+each.m */,
+				6DBF1FD50100ADDAC36F4ADE9B1624B1 /* NSSet+each.h */,
+				CFEB9D51A28255B51E2570410F8848EF /* NSSet+each.m */,
+			);
+			name = each;
+			sourceTree = "<group>";
+		};
+		BF0B91628AFB473228B29D68F9C1438C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5E8C97FE0FC8D9E8E67B96A08F1F0 /* libPods.a */,
+				FE0A0F7072946D257C97FCD709C815CC /* libYOLOKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C430E170925BCBFCE199F1878BAD002B /* YOLOKit */ = {
+			isa = PBXGroup;
+			children = (
+				6746240D6DA3F9C081D9349E9B1DC573 /* all */,
+				8249730150A022C13968C40E76F808A5 /* any */,
+				F7DE3B34DD9EF5E6CFE34E037C752F7D /* array */,
+				7813418A59A732235D241653F609F1CB /* base */,
+				1EDB58814D0B860E95233F83B1F9E425 /* chunk */,
+				27B5E781646FC9EE9A835600007B3622 /* concat */,
+				59A062898DD91CA69B2055DB3560EE98 /* dict */,
+				BD12344DFC00FC0A60DC576FEDB964BD /* each */,
+				E839DEC16F74FCFBA536B51D0E89B434 /* extend */,
+				25E764A96594F7E2DA99DEDD81BDAA26 /* find */,
+				FA135C4BC9843FA142C5AB9D6639FD81 /* first */,
+				28ABB6FEBE7BFB40EC606319637E2DC5 /* flatMap */,
+				2F8346CFC9A93B5E9637C161E53E140D /* flatten */,
+				D9D1F5652221C06E619917EC18F78085 /* fmap */,
+				AC010DBBEFF42AC45E3EA03B7DF54988 /* get */,
+				478206B7B17901616B69613E286F82A2 /* groupBy */,
+				89F1D120743BE4A90C7306D7C746548E /* has */,
+				9BB4C02F7AAE8EF8B0E8943842BBC9A4 /* indexOf */,
+				ECB3EC6BA0989D5E0DD406472C5848E1 /* inject */,
+				8DDC28DBD76A586D54F4479FFCBB9975 /* join */,
+				30445C1E1CC82B22905549F6541BDD7D /* last */,
+				AE0334F99DE924CD17810B15A39ACC20 /* map */,
+				11D13CDF7F1099EB6461081B01D6C1D7 /* max */,
+				8DC09770F0C7EBFD117BA0C1E024542A /* min */,
+				EEF7EDB6DA9FC51C5E83EB98554186DD /* none */,
+				2890B7DFFD886FF4CAB9372BF1A6C610 /* partition */,
+				A4432011F8C1C5BC773DE007E886DB6F /* pick */,
+				A3B0B77535042279BAD338513D488254 /* pluck */,
+				2CA0748CACBF6FB1444D3BDB230D3FC4 /* pmap */,
+				B5741E7A0A9DD6FFBFF2E7DA4EE806C9 /* pop */,
+				2FDDAEC4ED741125EE80A49715F7376C /* push */,
+				1531D8E7A707A0BB1204645D18BA7AEF /* reduce */,
+				216594D853F4244FC005F4F6463E40E0 /* reverse */,
+				84A8DF070F6B3DE3C153DFCE337707D0 /* rotate */,
+				24470891B424606FC505C1E8CFC23871 /* sample */,
+				68C9FE189F9160C37E5DB0A79076D0C5 /* select */,
+				90E3CFDCC9678274E5B907A3BFA9B5C5 /* shift */,
+				F6D73038027C27C1C8EFFE018A8D0D6B /* shuffle */,
+				2C941565B18554A4B2A248D629877BA2 /* skip */,
+				423E09C90E9142771E14DEB3369902DC /* slice */,
+				9F7BD4E94BB129F09F8434EC4A544FE9 /* snip */,
+				C9B78F087770AA4DAB985074A2D9DC37 /* sort */,
+				D1E10A382DBBEC62AB9A79FF176FFCA6 /* split */,
+				ECB26C87C4C5F04ACE30D92FA86970A3 /* Support Files */,
+				30D070930C2ADC7CA553C45613CF8550 /* transpose */,
+				6AA946FEC9A2229C9F5F1FE4749D2AB3 /* uniq */,
+				6AA9ACB1A88DB136C10A1334A769ECB6 /* unshift */,
+				0389C8DE32966FEAA67D24AEBE9B72B8 /* upTo */,
+				98FAD12D63D554329FB4375EC520977C /* without */,
+			);
+			path = YOLOKit;
+			sourceTree = "<group>";
+		};
+		C9B78F087770AA4DAB985074A2D9DC37 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				C444296C7622FBB507488E5F8A9EF4CE /* NSArray+sort.h */,
+				AAC502EE2A1AC7F6A3C7615CBE82D2A7 /* NSArray+sort.m */,
+			);
+			name = sort;
+			sourceTree = "<group>";
+		};
+		D1E10A382DBBEC62AB9A79FF176FFCA6 /* split */ = {
+			isa = PBXGroup;
+			children = (
+				63BFE1E55FFC07DF34A4006B7FC95021 /* NSString+split.h */,
+				6785149AC5391418E74C00D35FBA59D5 /* NSString+split.m */,
+			);
+			name = split;
+			sourceTree = "<group>";
+		};
+		D9D1F5652221C06E619917EC18F78085 /* fmap */ = {
+			isa = PBXGroup;
+			children = (
+				D376964F5E6522420AFDB0A62878FFC9 /* NSArray+fmap.h */,
+				341E30ED0BC6374DD22450C0AB692C5E /* NSArray+fmap.m */,
+				9464618269CB836CE80110366A315BB9 /* NSDictionary+fmap.h */,
+				4CD5EE6AC5A27A6A5846630670B613EC /* NSDictionary+fmap.m */,
+				96F3CE49E1F6EB07E2763A280FFAE33B /* NSSet+fmap.h */,
+				A96476A9245A9DB2D0ABA8B9361664AB /* NSSet+fmap.m */,
+			);
+			name = fmap;
+			sourceTree = "<group>";
+		};
+		E839DEC16F74FCFBA536B51D0E89B434 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				15C4F1AEC7B89D6313E4CD28F768D646 /* NSDictionary+extend.h */,
+				EF6A6AE5830BE74833DAC751C7110543 /* NSDictionary+extend.m */,
+			);
+			name = extend;
+			sourceTree = "<group>";
+		};
+		ECB26C87C4C5F04ACE30D92FA86970A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0974569A446E392CDE46AC382E38399 /* YOLOKit.xcconfig */,
+				CCB27A198AA99DBEE305C8D4B05E1979 /* YOLOKit-dummy.m */,
+				FC8677F0AE2942CAFE471267E0872786 /* YOLOKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YOLOKit";
+			sourceTree = "<group>";
+		};
+		ECB3EC6BA0989D5E0DD406472C5848E1 /* inject */ = {
+			isa = PBXGroup;
+			children = (
+				23854DC83D635679577BF965830DC3D1 /* NSArray+inject.h */,
+				E16B7F48C5047248018A2F277A1B984D /* NSArray+inject.m */,
+			);
+			name = inject;
+			sourceTree = "<group>";
+		};
+		EEF7EDB6DA9FC51C5E83EB98554186DD /* none */ = {
+			isa = PBXGroup;
+			children = (
+				E389A2EC1AE38844FCF3AAC5858DF495 /* NSArray+none.h */,
+				3A4E658C5AA8DFB472B846D5E4D30175 /* NSArray+none.m */,
+			);
+			name = none;
+			sourceTree = "<group>";
+		};
+		F6D73038027C27C1C8EFFE018A8D0D6B /* shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				46ABA679107EA98FFC31C069FF54E773 /* NSArray+shuffle.h */,
+				AF0E8D5EFB88DD756D42DA70819DE9D9 /* NSArray+shuffle.m */,
+			);
+			name = shuffle;
+			sourceTree = "<group>";
+		};
+		F7DE3B34DD9EF5E6CFE34E037C752F7D /* array */ = {
+			isa = PBXGroup;
+			children = (
+				8F876892559AFD8550233426F8DDAA75 /* NSDictionary+array.h */,
+				CCA6F69D72F442C9A8AB674B874671BC /* NSDictionary+array.m */,
+			);
+			name = array;
+			sourceTree = "<group>";
+		};
+		FA135C4BC9843FA142C5AB9D6639FD81 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE67299B396D9BF19A06A4D9AA5F14 /* NSArray+first.h */,
+				CCAEEC7811069B575A84B0AA0D3BE852 /* NSArray+first.m */,
+			);
+			name = first;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B1969A5B858C57D260E9095E2C302E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3179B945C2811AAAA42E6FB5AB36E193 /* NSArray+all.h in Headers */,
+				BBFC7FCA22CBF51A28C7359EB882FF22 /* NSArray+any.h in Headers */,
+				275545866CA17D56B141A29635E1C67A /* NSArray+chunk.h in Headers */,
+				7865CCB8354DFA646B3757F7BE4F7275 /* NSArray+concat.h in Headers */,
+				16F594E88B621FC2E0FEFBE50F7A23F1 /* NSArray+dict.h in Headers */,
+				CDE07EFC92D013B6DE3A4DD6E01B7698 /* NSArray+each.h in Headers */,
+				0605BE0A06E5EDF754A829D18D026600 /* NSArray+find.h in Headers */,
+				092779481F47C6F62C235C92363C9DE2 /* NSArray+first.h in Headers */,
+				6190A30BB4553E241AABF1B9DC8A2DC6 /* NSArray+flatMap.h in Headers */,
+				ACDE39ABE741B683803782ED2A50EBC3 /* NSArray+flatten.h in Headers */,
+				ECE390DCA0D2444E8C28FEDC76A83CAE /* NSArray+fmap.h in Headers */,
+				B8D61BF44D9A2077CB7B6D319F46565A /* NSArray+groupBy.h in Headers */,
+				5915EAD3C51A639A36DDE32C8B5E743A /* NSArray+has.h in Headers */,
+				93D1C081F5A814BCD1A7F105340D121F /* NSArray+indexOf.h in Headers */,
+				12FB32F5E66B78898D765E51DE29C0CE /* NSArray+inject.h in Headers */,
+				898C4512C55DA5727CD4FBA6676668C5 /* NSArray+join.h in Headers */,
+				74AC16E913A6D5A38AC123842261144D /* NSArray+last.h in Headers */,
+				5A59F5BDF2E9294F84F07C328C4C513C /* NSArray+map.h in Headers */,
+				7848A8EFE8926EFC4BAFBB88770D6B07 /* NSArray+max.h in Headers */,
+				6A170FC2BA6669A4AF205FD83899489E /* NSArray+min.h in Headers */,
+				A45784078CD0DB72044C223103F1CCCA /* NSArray+none.h in Headers */,
+				8830DAE286CF6BEF3CEF73BA0E9E5C25 /* NSArray+partition.h in Headers */,
+				EA01DF5541C83B20B9F319E56237B664 /* NSArray+pluck.h in Headers */,
+				85CD989BD5626FC5F766D6FFD8834DCF /* NSArray+pmap.h in Headers */,
+				115DAF2A5E8ABC9B2EC7BAF388B4B57C /* NSArray+reduce.h in Headers */,
+				6E0027FBD14CA8BE4ABB099671A0385E /* NSArray+reverse.h in Headers */,
+				25C4671CB8E84B8A166092E7A9F6844A /* NSArray+rotate.h in Headers */,
+				01B8AAEBDA42FA9BF2FB33B66033EB3F /* NSArray+sample.h in Headers */,
+				C372A14BAE9ECEBA17FBDD7F9F7F1011 /* NSArray+select.h in Headers */,
+				B72E518B9F3262337F7C989011915117 /* NSArray+shuffle.h in Headers */,
+				55F429B0BBE64323215F6EC15CD88A7D /* NSArray+skip.h in Headers */,
+				82F79E009319CB0E5FCBABD89F5B6DB9 /* NSArray+slice.h in Headers */,
+				CC804F7B4ABC397B949878C24217AB98 /* NSArray+snip.h in Headers */,
+				2E45095BE97587435F526EC40E7ED30D /* NSArray+sort.h in Headers */,
+				7A1C34811C9AE40E6E760E4F5CD6ECA8 /* NSArray+transpose.h in Headers */,
+				36CAF261719246D8AA7741D006FF6D2D /* NSArray+uniq.h in Headers */,
+				820639861EFBD63163D3019E83F3CA51 /* NSArray+without.h in Headers */,
+				9275C95D30BB27A7249DE13BFCE61AEF /* NSDictionary+array.h in Headers */,
+				52501F8CE1AA3AE080FF6950421B1A3A /* NSDictionary+extend.h in Headers */,
+				1C0B7FF531A1F0BD076FC0400A76EFB7 /* NSDictionary+fmap.h in Headers */,
+				F5AAFD85A522BAFA1CC473726678362E /* NSDictionary+get.h in Headers */,
+				346DDEDE2C80373B9CF3B9BA1F6A39EB /* NSDictionary+map.h in Headers */,
+				A456E5331BC9678FD77C1DEBF2935B8D /* NSDictionary+pick.h in Headers */,
+				6D4907E22C63DA50F3B36091EB72BDB8 /* NSMutableArray+pop.h in Headers */,
+				B4BD1EE68AE446D29DF0DA5446517DFE /* NSMutableArray+push.h in Headers */,
+				82893E6BE4866F828CF23A26FC6D312F /* NSMutableArray+shift.h in Headers */,
+				75DDF0265CCD26DCD5BA942A8D00C5D9 /* NSMutableArray+unshift.h in Headers */,
+				FE7016DDD8A64F65C0EEDDD61ED5C2E8 /* NSNumber+upTo.h in Headers */,
+				99F131749C5E68BF33C20024094ED248 /* NSSet+each.h in Headers */,
+				F7862A8D1F1DEF535B105E523B757DFF /* NSSet+fmap.h in Headers */,
+				5509BED5F375D406E9EF450AF3902D4D /* NSString+split.h in Headers */,
+				DF775028B17C8B8DCEBE0CEFD89F4B0F /* YOLO.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		921CDB3CE5D5077112F3A358021D59CE /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A0F51FDFF4E61840FE842869852C15 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				B08EFDD85A4E1AA3FF901C6C16F5BFA6 /* Sources */,
+				8C5687D658F2928577ABDD5CC2625150 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90C6F53CA73ADAE4A1C6A53D20B5446 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F2C5E8C97FE0FC8D9E8E67B96A08F1F0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E0398C55E77D7B91BEAF9E8F74A3F787 /* YOLOKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AC603EA00D0B7A62E765D74C142DC2 /* Build configuration list for PBXNativeTarget "YOLOKit" */;
+			buildPhases = (
+				E3518E4EC7D7525E081CFE9CBFB34717 /* Sources */,
+				8050827781A06DC2FC3863D55D0303F3 /* Frameworks */,
+				8B1969A5B858C57D260E9095E2C302E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOLOKit;
+			productName = YOLOKit;
+			productReference = FE0A0F7072946D257C97FCD709C815CC /* libYOLOKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BF0B91628AFB473228B29D68F9C1438C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921CDB3CE5D5077112F3A358021D59CE /* Pods */,
+				E0398C55E77D7B91BEAF9E8F74A3F787 /* YOLOKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08EFDD85A4E1AA3FF901C6C16F5BFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9E995649BB2DE1DA64804B761F7810 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3518E4EC7D7525E081CFE9CBFB34717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE3071FDAEC953A81097C768FB3F44D /* NSArray+all.m in Sources */,
+				A6348F8470B29960E589E40EC239AC9E /* NSArray+any.m in Sources */,
+				C92008EFA0A6A0B4A97B5EFC7B60F5A2 /* NSArray+chunk.m in Sources */,
+				E78F0A8980AB3E6B8B157AECF7349481 /* NSArray+concat.m in Sources */,
+				197172BE6FDD5876EF956CCCAC5C0A97 /* NSArray+dict.m in Sources */,
+				4B1BB796B4C7EA6187901269431042D7 /* NSArray+each.m in Sources */,
+				B37DA110FEC98DEB3AAD6C73678A7C1F /* NSArray+find.m in Sources */,
+				82E366430611C0F3A6D92CF6471795B7 /* NSArray+first.m in Sources */,
+				4B4611926B9042157818DFADFAA9AA2F /* NSArray+flatMap.m in Sources */,
+				3B4415C80B4BFBE69F1CFBEA2077F28D /* NSArray+flatten.m in Sources */,
+				477C2E3EC7EFD62B4F769C00187408FC /* NSArray+fmap.m in Sources */,
+				C15E30B485F4D85CC83E24E4D4081C17 /* NSArray+groupBy.m in Sources */,
+				2F470D81B3FCD543A7164D84ABE3E8C1 /* NSArray+has.m in Sources */,
+				27FD488D0ED323A448EDBD621B8585F9 /* NSArray+indexOf.m in Sources */,
+				9EC60366BB62876FD9077A3BED1F291B /* NSArray+inject.m in Sources */,
+				97EB05F6F9DC46C430502CD78B218143 /* NSArray+join.m in Sources */,
+				D6BCBDBF3E12D5DFE1A54BD37D36EF67 /* NSArray+last.m in Sources */,
+				D7E37E683B439903AC88A804380ED4D3 /* NSArray+map.m in Sources */,
+				D0CBD5CB5AA698480DB6611F4CFF5F91 /* NSArray+max.m in Sources */,
+				2644661EE034480C45DE39AEE038B8B8 /* NSArray+min.m in Sources */,
+				8367D86CF915BD2CA5E4003820E5D747 /* NSArray+none.m in Sources */,
+				27B136933B350B13059A3306647D7D92 /* NSArray+partition.m in Sources */,
+				A15BCC6FC0BD0A0FD20A217A622F13EF /* NSArray+pluck.m in Sources */,
+				CFB3B1452698440233A49B752FEC32F2 /* NSArray+pmap.m in Sources */,
+				86FDE8D00146B1B346D83E1213A11E5D /* NSArray+reduce.m in Sources */,
+				D121C235B06CCE4209559389CFAC0ABA /* NSArray+reverse.m in Sources */,
+				9042CBC1D7EABE437908C854FEA2ED9C /* NSArray+rotate.m in Sources */,
+				EA95FBCA5CB7024029C4EB722EAB257A /* NSArray+sample.m in Sources */,
+				F690EBA4C20662BBF4B0BC073EB89D3A /* NSArray+select.m in Sources */,
+				792DB15C3408A19E9F3EAD8134FAF27E /* NSArray+shuffle.m in Sources */,
+				3D1497C325FC0047B999576B1FE899DE /* NSArray+skip.m in Sources */,
+				AC9E8FC650C3C50324E5D78A3563976D /* NSArray+slice.m in Sources */,
+				388DD9085D0035D0AF8B1F013E58152E /* NSArray+snip.m in Sources */,
+				AD696020A631BE5AC00D2A16BF4A03C8 /* NSArray+sort.m in Sources */,
+				DEA93BD3E521BB3F9EEE1750CD32D123 /* NSArray+transpose.m in Sources */,
+				9A495D2F46DB8D2D140DEB5A790EE358 /* NSArray+uniq.m in Sources */,
+				9C68358D7F9EC1FDFCCC8260C427DE9E /* NSArray+without.m in Sources */,
+				7BD9DCA081B77A582E6CE344933B3C6B /* NSDictionary+array.m in Sources */,
+				5503054A54CDE66353ADA82BC429CB3D /* NSDictionary+extend.m in Sources */,
+				E6A87D7A36CF89B74B7A4CF2B606D9D1 /* NSDictionary+fmap.m in Sources */,
+				DA971653B81682B6C7979D65E8594BAB /* NSDictionary+get.m in Sources */,
+				D9EE9038EA242CD6DB648FCD523EDA28 /* NSDictionary+map.m in Sources */,
+				17F0D7C0B87032C004412F164DD929AA /* NSDictionary+pick.m in Sources */,
+				ADDA8D04B9C5FCD538A9A359C3651D8E /* NSMutableArray+pop.m in Sources */,
+				06B9C7C5B2F329C550DCF0072D121955 /* NSMutableArray+push.m in Sources */,
+				386B1A5B0589861F9C5DB9D25AD5979F /* NSMutableArray+shift.m in Sources */,
+				D815F4F97A3A05799E78DB842CF398CA /* NSMutableArray+unshift.m in Sources */,
+				E5AD76D4727F32AD686B2C23EBCB1895 /* NSNumber+upTo.m in Sources */,
+				74C741C2443E93BBA0F5D2EC3C2835E7 /* NSSet+each.m in Sources */,
+				35C8927578C0B4622D8F9D050C299BAD /* NSSet+fmap.m in Sources */,
+				008CD4B3871573557EFEF8E8820715AA /* NSString+split.m in Sources */,
+				0ABA9F42CA4D8E54EF101D96D387CABE /* YOLO.m in Sources */,
+				9BFE364F75DE6162662A5AFB37C2FF7E /* YOLOKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90C6F53CA73ADAE4A1C6A53D20B5446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YOLOKit;
+			target = E0398C55E77D7B91BEAF9E8F74A3F787 /* YOLOKit */;
+			targetProxy = F4EC714B00EDB9A4A62D3E4D546B7389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62EEF175967FE1D2ECC30D15C25545D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0974569A446E392CDE46AC382E38399 /* YOLOKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YOLOKit/YOLOKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		78FFCB9FF7D1E3BC89F464696FB230E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86A03ACFA7750FE7E259C123D841B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E792F39393D382F68078C02DFB53D187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0974569A446E392CDE46AC382E38399 /* YOLOKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YOLOKit/YOLOKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A0F51FDFF4E61840FE842869852C15 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FFCB9FF7D1E3BC89F464696FB230E9 /* Debug */,
+				D86A03ACFA7750FE7E259C123D841B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AC603EA00D0B7A62E765D74C142DC2 /* Build configuration list for PBXNativeTarget "YOLOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E792F39393D382F68078C02DFB53D187 /* Debug */,
+				62EEF175967FE1D2ECC30D15C25545D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
